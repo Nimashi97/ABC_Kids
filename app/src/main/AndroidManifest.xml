@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nimashi.game">
+<uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"><intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
+        <activity android:name=".ServiceActivity"></activity>
+        <service android:name=".SoundService"></service>
+        <activity android:name=".MyActivity"></activity>
+        <activity android:name=".BrActivity"></activity>
+        <receiver android:name=".MyReciever"></receiver>
+
+        <activity android:name=".OneActivity"></activity>
+        <activity android:name=".TwoActivity"></activity>
+        <activity android:name=".ThreeActivity"></activity>
+        <activity android:name=".FourActivity"></activity>
+        <activity android:name=".FiveActivity"></activity>
+        <activity android:name=".SixActivity"></activity>
+        <activity android:name=".SevenActivity"></activity>
+        <activity android:name=".EightActivity"></activity>
+        <activity android:name=".NineActivity"></activity>
+        <activity android:name=".TenActivity"></activity>
+        <activity android:name=".EleActivity"></activity>
+        <activity android:name=".TweActivity"></activity>
+        <activity android:name=".ThiActivity"></activity>
+        <activity android:name=".FouActivity"></activity>
+        <activity android:name=".FifActivity"></activity>
+        <activity android:name=".SixtActivity"></activity>
+        <activity android:name=".SeventActivity"></activity>
+        <activity android:name=".EighttActivity"></activity>
+        <activity android:name=".NinetActivity"></activity>
+        <activity android:name=".TwentyActivity"></activity>
+        <activity android:name=".TwentyoneActivity"></activity>
+        <activity android:name=".TwentytwoActivity"></activity>
+        <activity android:name=".TwentythrActivity"></activity>
+        <activity android:name=".TwentyfourActivity"></activity>
+        <activity android:name=".TwentyfiveActivity"></activity>
+        <activity android:name=".TwentysixActivity"></activity>
+        <activity android:name=".LevelfinActivity"></activity>
+    </application>
+
+</manifest>
